@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(175, 14, 14);">
+    <h2 id="my-tech-experience">My Tech Experience</h2>
+<p>I am very new to the tech world (besides social media), but I feel like I am learning so much as I go. I feel like my favorite part of what we have learned so far in the course would have to be <em>Python</em>. I feel like I more comfortable because we had a couple modules using <em>Python</em>. I also like markdown because of how simple it was to learn. It&#39;s pretty basic and straight to the point which I really like.</p>
+<h4 id="volume-calculator-challenge">Volume Calculator Challenge</h4>
+<p> The Volume Calculator challenge interested me because we were essentially creating calculators! Figuring out the code got tricky with the loops, but I ended up figuring it out. I did run into a lot of syntax errors but it was a true definition of trial and error and then success.</p>
+<pre><code class="lang-python">print(<span class="hljs-string">"Hello this is a volume calculator!"</span>)
+choice=str(input(<span class="hljs-string">"Please type the name of the shape you want to find the volume of"</span>))
+
+def vol_cube():
+edge=<span class="hljs-keyword">float</span>(input(<span class="hljs-string">"enter value of edge"</span>))
+vol_cu = edge*edge*edge
+print(<span class="hljs-string">"volume of cube is:"</span>)
+print(vol_cu)
+
+
+def vol_cylinder():
+radius=input(<span class="hljs-string">"enter radius"</span>)
+height=input(<span class="hljs-string">"enter height"</span>)
+pi=3.14
+vol_cylinder=pi*<span class="hljs-keyword">int</span>(radius)*<span class="hljs-keyword">int</span>(radius)*<span class="hljs-keyword">int</span>(height)
+print(<span class="hljs-string">"volume of cylinder is"</span>)
+print(vol_cylinder)
+
+def vol_cone():
+radius=<span class="hljs-keyword">float</span>(input(<span class="hljs-string">"Enter radius"</span>))
+height=<span class="hljs-keyword">float</span>(input(<span class="hljs-string">"Enter height"</span>))
+vol_cone=4/3*3.14*radius*radius*height
+print(<span class="hljs-string">"volume of cone is:"</span>)
+print(vol_cone)
+
+<span class="hljs-keyword">if</span> choice == <span class="hljs-string">"cube"</span>:
+vol_cube()
+
+elif choice == <span class="hljs-string">"cylinder"</span>:
+vol_cylinder()
+
+elif choice == <span class="hljs-string">"cone"</span>:
+vol_cylinder()
+</code></pre>
+<h4 id="ios-app-development-class-at-mizzou">IOS App Development Class at Mizzou</h4>
+<p>I really love the idea of taking this class, but I also feel like I would need more inbetween classes before jumping into that. I love Apple products so being able to learn more about the developmental process would be very interesting to me. I like IT classes because it is literally the blueprint to what we see everyday on our phones and laptops.</p>
+<p>link of more IT classes at Mizzou: [Information Technology Catalog]<a href="http://catalog.missouri.edu/courseofferings/infotc/">http://catalog.missouri.edu/courseofferings/infotc/</a></p>
+<p><img src="mizzou.png" alt="Mizzou Logo"></p>
+</body>
+</html>
