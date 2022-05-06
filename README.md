@@ -1,2 +1,3 @@
-piathmo.github.io
-<a href="https://piathmo.github.io/FinalProject1.html"> All About Piath </a>
+<!DOCTYPE html>
+<html>
+<body <font color="purple">This is my website & welcome! Here you will find out a lot about me, where I'm from, where I've been and so much more. Enjoy!.</font> 
